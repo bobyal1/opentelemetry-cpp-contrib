@@ -46,7 +46,7 @@
         ],
         'libraries': [
           '$(ANSDK_DIR)/apr/1.7.0/lib/libapr-1.a',
-          '$(ANSDK_DIR)/apr-util/1.6.1/lib/libaprutil-1.a',
+          '$(ANSDK_DIR)/apr-util/1.6.3/lib/libaprutil-1.a',
           '$(ANSDK_DIR)/expat/2.3.0/lib/libexpat.a',
           '$(ANSDK_DIR)/apache-log4cxx/0.11.0/lib/liblog4cxx.a',
           '$(ANSDK_DIR)/opentelemetry/$(CPP_SDK_VERSION)/lib/libopentelemetry_common.so',
