@@ -255,12 +255,12 @@ task bundleAprSources {
         }
 
         copy {
-            from "${buildDir}/apr-util-1.6.1"
+            from "${buildDir}/apr-util-1.6.3"
             into "${platBuildDir}/httpd-${apache22Version}/srclib/apr-util"
         }
 
         copy {
-            from "${buildDir}/apr-util-1.6.1"
+            from "${buildDir}/apr-util-1.6.3"
             into "${platBuildDir}/httpd-${apache24Version}/srclib/apr-util"
         }
     }
