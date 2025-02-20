@@ -86,6 +86,7 @@ services:
             - amazonlinux2_nginx
         ports:
             - "8012:80"
+            
     nginx_ubuntu:
         build:
             context: .
