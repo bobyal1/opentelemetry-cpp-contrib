@@ -74,6 +74,18 @@ services:
             - "8012:80"
         depends_on:
             - otel-collector
+    nginx_amazonlinux2:
+        build:
+            context: .
+            dockerfile: docker/amazonlinux2/Dockerfile
+        image: nginx_amazonlinux2
+        hostname: webserver
+        container_name: nginx_amazonlinux2
+        #command: 
+        profiles:
+            - amazonlinux2_nginx
+        ports:
+            - "8012:80"
     nginx_ubuntu:
         build:
             context: .
