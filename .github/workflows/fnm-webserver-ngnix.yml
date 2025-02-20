@@ -1,4 +1,4 @@
-name: webserver ngnix instrumentation CI
+name: FNM webserver ngnix module CI
 
 on:
   workflow_dispatch:
