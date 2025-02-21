@@ -245,12 +245,12 @@ task bundleAprSources {
         }
 
         copy {
-            from "${buildDir}/apr-1.7.0"
+            from "${buildDir}/apr-1.7.5"
             into "${platBuildDir}/httpd-${apache22Version}/srclib/apr"
         }
 
         copy {
-            from "${buildDir}/apr-1.7.0"
+            from "${buildDir}/apr-1.7.5"
             into "${platBuildDir}/httpd-${apache24Version}/srclib/apr"
         }
 
